@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Mortimer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        .about, .portfolio, .contact {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Alex Mortimer</h1>
+    <p>Marketer | Entrepreneur | Innovator | Sustainability Advocate</p>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Alex Mortimer, a marketer who loves entrepreneurship, innovation, and sustainability. With a passion for skiing, art, pilates, people, and new business development, I bring a dynamic and creative approach to every project I undertake.</p>
+        <p>I have 3 years of experience working at DDB in New Zealand, where I had the opportunity to work on prestigious accounts such as Sky TV, Neon, and Sealy. My work involved developing global content and surpassing KPIs on major campaigns like the Tokyo Olympics, Sky Brand, and Neon's re-launch. My campaigns received Best Ads on TV recognition, and I played a key role in increasing sign-ups to Sky Sport and Sky Sport Now by 175% during the 2021 'Be an Expert' Olympics campaign.</p>
+        <p>Additionally, I gained valuable experience in the UK at Gradfuel, where I honed my skills in marketing and communications.</p>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here is a collection of my work at DDB:</p>
+        <ul>
+            <li>Sky Brand's 'The Watch' campaign</li>
+            <li>Outlander S6 special build</li>
+            <li>Handmaid's Tale OOH campaign</li>
+            <li>Nat Geo radio campaign</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please reach out via email at <a href="mailto:alex@example.com">alex@example.com</a>.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Alex Mortimer. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
